@@ -1,0 +1,51 @@
+body{
+    color:brown;
+    font-family: arial;
+    max-width: 550px;
+    margin: 0 auto;
+    padding:0 16px;
+    /* display: flex;
+    flex-direction: column;
+    min-height: 100vh; */
+}
+.main-content{
+    flex-grow:1;
+
+}
+footer{
+    background-color: brown;
+    margin:16px;
+    padding:16px;
+}
+header  {
+    margin-top:16px;
+    margin-bottom: 40px;
+}
+header a{
+    color:chocolate;
+    margin-right:16px;
+    text-decoration:none;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16x;
+}
+.portrait{
+    width:250px;
+
+}
+input{
+border:1px solid #cccccc;
+padding:8px;
+
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #999999;
+    background:#888888;
+    color:white;
+    padding:8px;
+
+}
